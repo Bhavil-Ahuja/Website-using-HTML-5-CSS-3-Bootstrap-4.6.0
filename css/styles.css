@@ -2,17 +2,6 @@ body {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
 }
-/* MEDIA QUERIES */
-@media (max-width: 1060px) {
-  .title-image {
-    position: static;
-    transform: rotate(0);
-    margin: 112.7px auto 0 auto;
-  }
-  #title {
-    text-align: center;
-  }
-}
 
 .paddinghere {
   padding: 7% 15%;
@@ -125,4 +114,17 @@ h2 {
 }
 .symbols {
   margin: 15px 5px;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 1060px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    margin: 112.7px auto 0 auto;
+  }
+
+  #title {
+    text-align: center;
+  }
 }
